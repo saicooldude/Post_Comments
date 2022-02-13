@@ -1,0 +1,78 @@
+.main {
+  width: 70%;
+  border: 2px solid green;
+}
+
+.post__container {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f7f2f1 0% 0% no-repeat padding-box;
+  border-radius: 1rem;
+  background-clip: padding-box;
+  opacity: 1;
+  border: 2px solid black;
+}
+.post__item-container {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  opacity: 1;
+}
+.post__item--header {
+  display: flex;
+  flex-direction: ROW;
+  align-items: center;
+}
+.post__item--header-avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.post__item--header-avatar > img {
+  width: 100%;
+  border-radius: 50%;
+}
+.post__item--header-details {
+  margin-left: 2rem;
+}
+.post__item--header-details .heading-tertiary {
+  font-size: 1.6rem;
+}
+.post__item--header-details .academic-details {
+  font-size: 1.2rem;
+}
+
+.post__body {
+  margin: 1.5rem 0;
+
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+}
+.post__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post__footer--comments {
+  width: 60%;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.todo-input {
+  color: black;
+}
+.post__footer--comments > i {
+  margin-left: 1rem;
+}
+.post__footer--actions {
+  font-size: 1.4rem;
+}
+.post__footer--actions-link {
+  text-decoration: none;
+}
+.post__footer--actions-link:not(:last-child) {
+  margin-right: 1.5rem;
+}
